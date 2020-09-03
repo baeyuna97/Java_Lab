@@ -9,6 +9,12 @@ public class Student {
 	int grade;
 	String address;  
 	
+	// default 생성자  
+	public Student(int id, String name) {
+		studentID = id;
+		studentName = name;
+	} 
+	
 	// 함수 생성 
 	public void showStudentInfo() {
 		System.out.println(studentName + "," + address);

@@ -6,20 +6,21 @@ public class StudentTest {
 			
 			// 참조변수 생성 
 			// 객체는 반드시 new 클래스 ... 생성해서 써야함 
-			Student studentLee = new Student();
-			studentLee.studentName = "이순신 ";
-			studentLee.studentID = 100;
+			Student studentLee = new Student(100, "이순신");
+//			studentLee.studentName = "이순신 ";
+//			studentLee.studentID = 100;
 			studentLee.address = "서울시 영등포구 여의도동 ";
 			
-			Student studentKim = new Student();
-			studentKim.studentName = "김유신  ";
-			studentKim.studentID = 101;
+			Student studentKim = new Student(101, "김유신");
+//			studentKim.studentName = "김유신  ";
+//			studentKim.studentID = 101;  
 			studentKim.address = "미국 산호세 ";
 			
 			studentLee.showStudentInfo();
 			studentKim.showStudentInfo();
 			
 			// 참조값 reference value 
+			// 생썽된 인스턴스의 메모리 주소값 
 			System.out.println(studentLee);
 			System.out.println(studentKim); 
 		}
