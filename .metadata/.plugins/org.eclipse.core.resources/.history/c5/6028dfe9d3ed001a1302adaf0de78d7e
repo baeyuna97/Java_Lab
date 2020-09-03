@@ -1,0 +1,32 @@
+package ifexample;
+
+public class SwitchCase2 {
+
+	public static void main(String[] args) {
+		
+		int month = 10;
+		int day;
+		
+		switch (month) {
+			case 1:
+				day = 31;
+				break;
+			case 2:
+				day = 31;
+				break;
+			case 3:
+				day = 31;
+				break;
+			case 4:
+				day = 31;
+				break;
+			case 5:
+				day = 31;
+				break;
+			case 6:
+				day = 31;
+				break;
+		}
+	}
+
+}

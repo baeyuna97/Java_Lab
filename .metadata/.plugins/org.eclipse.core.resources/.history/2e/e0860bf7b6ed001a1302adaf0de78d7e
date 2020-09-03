@@ -1,0 +1,14 @@
+package binary;
+
+public class VariableEx2 {
+
+	public static void main(String[] args) {
+
+		int num = 10; // 어딘가 num이라는 변수 메모리에 저장
+		// 10은 몇 바이트로 저장되어 있는가??
+		// -> 정수는 4byte int형으로 저장 
+		int level = 50;
+		
+	}
+
+}

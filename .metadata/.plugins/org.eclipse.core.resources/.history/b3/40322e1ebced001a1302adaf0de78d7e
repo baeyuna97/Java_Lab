@@ -1,0 +1,25 @@
+package binary;
+
+public class ImplicitConversion {
+
+	public static void main(String[] args) {
+		byte bNum = 10;
+		int num = bNum; // 4바이트 
+		// bNum 1바이트 
+
+		
+		System.out.println(num);
+		
+		long lNum = 10; // literal -> 4byte 저장 
+		float fNum = lNum; // long이라는 8바이트에 저장 -> 형변환 
+		
+		System.out.println(fNum);
+		
+		double dNum = fNum + num;
+		// fNum 실수 num 정수가 float으로 형변환해서 더해짐
+		// 더해진 dNum이 double로 형변환 
+		
+		System.out.println(dNum);
+	}
+
+}

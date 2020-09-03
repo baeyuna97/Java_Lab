@@ -1,0 +1,11 @@
+package binary;
+
+public class DoubleEx {
+
+	public static void main(String[] args) {
+		double dNum = 3.14; //8 바이트  
+		float fNum = 3.14; //4 바이트  
+		
+	}
+
+}

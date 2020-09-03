@@ -1,0 +1,15 @@
+package loopexample;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		int num = 1;
+		int sum;
+		
+		// 반복의 조건 
+		while( num <= 10) {
+			
+		}
+	}
+
+}

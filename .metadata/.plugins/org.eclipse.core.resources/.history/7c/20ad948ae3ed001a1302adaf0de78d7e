@@ -1,0 +1,24 @@
+package classpart;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+			
+			// 참조변수 생성 
+			// 객체는 반드시 new 클래스 ... 생성해서 써야함 
+			Student studentLee = new Student();
+			studentLee.studentName = "이순신 ";
+			studentLee.studentID = 100;
+			studentLee.address = "서울시 영등포구 여의도동 ";
+			
+			Student studentKim = new Student();
+			studentKim.studentName = "김유신  ";
+			studentKim.studentID = 101;
+			studentKim.address = "미국 산호세 ";
+			
+			studentLee.showStudentInfor();
+			studentKim.showStudentInfor();
+		}
+	}
+
+}

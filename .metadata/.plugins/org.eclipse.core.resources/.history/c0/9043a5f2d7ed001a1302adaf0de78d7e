@@ -1,0 +1,16 @@
+package loopexample;
+
+public class ForExample_gugu2 {
+
+	public static void main(String[] args) {
+		int dan = 2;
+		int times = 1;
+		
+		while(dan <= 9) {
+			if ((dan%2)!=0) {
+				continue;
+			}
+		}
+	}
+
+}
