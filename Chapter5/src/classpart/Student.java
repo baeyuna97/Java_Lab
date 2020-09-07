@@ -16,6 +16,7 @@ public class Student {
 	} 
 	
 	// 함수 생성 
+	// void 리턴값이 없다. 
 	public void showStudentInfo() {
 		System.out.println(studentName + "," + address);
 	}

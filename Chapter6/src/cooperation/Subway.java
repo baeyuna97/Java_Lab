@@ -1,7 +1,7 @@
 package cooperation;
 
 public class Subway {
-
+	// 필요한 변수 생성 
 	int lineNumber;
 	int passengerCount;
 	int money; 
@@ -19,7 +19,7 @@ public class Subway {
 	
 	// 출력  
 	public void showInfo() {
-		System.out.println("지하철 " + lineNumber + "번의 승객은 " + passengerCount + "명이고, 수입은 " + money + "입니다.");
+		System.out.println("지하철 " + lineNumber + "호선의 승객은 " + passengerCount + "명이고, 수입은 " + money + "입니다.");
 		
 	}
 }

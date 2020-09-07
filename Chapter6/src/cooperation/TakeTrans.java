@@ -11,9 +11,10 @@ public class TakeTrans {
 		// 버스 객체 만들고 
 		Bus bus100 = new Bus(100);
 		// james가 버스 타는 매소드에 태움 
-		// 승객수 계산 , 돈 계산 
+		// 승객수 계산 , 돈 계산 & 탄 버스 번호는 인자로 입력. 
 		james.takeBus(bus100); 
 		james.showInfo();
+		// 출력 
 		bus100.showInfo(); 
 		
 		Subway subwayGreen= new Subway(2);

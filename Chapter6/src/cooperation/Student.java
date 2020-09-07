@@ -3,7 +3,7 @@ package cooperation;
 public class Student {
 	
 	// 학생 정보 설정 
-	String studentName;
+	String studentName; 
 	int grade;
 	int money;
 	
@@ -19,7 +19,9 @@ public class Student {
 	// 버스에 대한 정보 넘어와야함 
 	// 매개변수로 받음 
 	public void takeBus(Bus bus) {
-		bus.take(1000);
+		bus.take(1000); // 버스가 승객을 태우면  
+		// bus클래스의 take 함수는 요금을 필수 인자로 받으므로 
+		// bus.take() 안에 요금을 넣어줘야 한다. 
 		money -= 1000;
 		
 	}
